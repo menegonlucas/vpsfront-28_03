@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="../css/clientes.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Clientes</h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Cadastrar Cliente</h2>
+            <form id="client-form">
+                <input type="text" id="client-name" placeholder="Nome" required>
+                <input type="text" id="client-address" placeholder="Endereço" required>
+                <input type="text" id="client-cpf" placeholder="CPF" required>
+                <input type="tel" id="client-phone" placeholder="Telefone" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <h2>Lista de Clientes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Endereço</th>
+                        <th>CPF</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody id="client-table-body">
+                    <!-- Clientes cadastrados aparecerão aqui -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>Por Lucas Menegon</footer>
+
+    <script src="../js/clientes.js"></script>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+</html>

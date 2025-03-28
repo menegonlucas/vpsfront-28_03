@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #e0e1dd;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #778da9;
+    color: #e0e1dd;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #778da9;
+    color: #e0e1dd;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #e0e1dd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #1b263b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #778da9;
+}
+
+.table-container {
+    margin: 20px auto;
+    max-width: 800px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #778da9;
+    color: white;
+}
