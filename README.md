@@ -1,5 +1,5 @@
 # Projeto realizado no dia 28 de março de 2025 por Lucas Menegon
---
+
 # Gerenciamento IPlast - Interface Visual
 
 ## 📌 Contextualização do Desafio
